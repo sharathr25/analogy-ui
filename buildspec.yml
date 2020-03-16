@@ -20,6 +20,7 @@ phases:
      - yarn test
      - echo Building...
      - yarn build
+     - ls
 artifacts:
   base-directory: /
   files:
