@@ -24,7 +24,7 @@ phases:
      - yarn build
      - ls -l
 artifacts:
-  base-directory: /dist
+  base-directory: dist
   files:
     - "**/*"
   discard-paths: no
